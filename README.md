@@ -1,13 +1,10 @@
-# Maple English V2.0 — 3,000 Grammar Questions
+# Maple English V3.0 — 4,000 Grammar Questions
 
-Static PWA for iPhone, Android and desktop. Upload all six files in this folder to the root of a GitHub Pages repository.
+Static PWA for iPhone, Android and desktop. Upload the contents of this folder to GitHub Pages.
 
-- 3,000 multiple-choice questions across 12 grammar topics (250 per topic).
-- 74 original questions retain their IDs. Existing `maple-english-progress-v1` localStorage data is reused.
-- Each new question has a stable topic-specific ID, answer and Traditional Chinese explanation.
-- Resume per topic, jump to a question, mistakes, stats, JSON export/import.
-- Offline caching via service worker after initial visit.
-
-NOTE: 2,926 new questions are generated from curated grammar patterns and varied scenario prompts; they are not 2,926 independently authored grammatical concepts. A full editorial review is recommended before high-stakes educational use.
-
-Local progress is browser-specific; back it up before clearing browser data.
+- 4,000 multiple-choice questions across 22 grammar topics.
+- 10 NEW tense topics with 100 questions each (1,000 new questions).
+- 3,000 old questions and their IDs are retained. LocalStorage key `maple-english-progress-v1` is unchanged to preserve progress.
+- Resume per topic, jump to question number, mistakes, stats, export/import JSON, offline caching.
+- IMPORTANT: The 1,000 new tense questions use 20 curated sentence patterns per topic with five labeled variants each. They are NOT 1,000 fully independent sentences; similar questions recur. Further editorial review and diversification are recommended.
+- Backup progress before clearing browser data or switching devices.
